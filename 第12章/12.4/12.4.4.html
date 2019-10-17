@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<style>
+* {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f2f2f2;
+}
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.nav {
+    width: 400px;
+    height: 56px;
+    padding-left: 20px;
+    background-color: #0dc2e3;
+}
+/*主菜单*/
+.menu > li {
+    float: left;
+    padding-top: 20px;
+}
+.menu > li > a {
+    position: relative;
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu > li > a:hover {
+    color: #1a89c8;
+    text-decoration: none;
+    border-radius: 5px 5px 0 0;
+    background-color: #fff;
+}
+/*子菜单*/
+.submenu {
+    position: absolute;
+    width: 200px;
+    line-height: 40px;
+    background-color: #fff;
+    transform-origin: 0px 0px;
+    transform: rotateX(-90deg);
+    transition: all 0.3s ease-in;
+}
+/*鼠标移动到菜单上时，子菜单进行水平旋转*/
+.menu > li:hover .submenu {
+    transform: rotateX(0deg);
+}
+.submenu a {
+    display: block;
+    padding: 0 15px 0 10px;
+    color: #1a89c8;
+    text-decoration: none;
+}
+.submenu a:hover {
+    color: #fff;
+    text-shadow: 0 1px 0 #1c71a1;
+    text-decoration: none;
+    background-color: #218bc7;
+}
+</style>
+</head>
+
+<body>
+<div class="nav">
+    <ul class="menu clearfix">
+        <li>
+            <a href="#">首页</a>
+        </li>
+        <li>
+            <a href="#">售后服务</a>
+            <ul class="submenu">
+                <li><a href="#">产品保修政策</a></li>
+                <li><a href="#">维修登记</a></li>
+                <li><a href="#">服务站点查询</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">在线支持</a>
+            <ul class="submenu">
+                <li><a href="#">常见问题</a></li>
+                <li><a href="#">在线客服</a></li>
+            </ul>
+    </ul>
+</div>
+
+</body>
+
+</html>

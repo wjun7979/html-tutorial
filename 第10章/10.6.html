@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    .form-control {
+        width: 200px;
+        height: 34px;
+        margin-bottom: 5px;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        background-color: #fff;
+        color: #555;
+        font-size: 14px;
+        border-radius: 4px;
+    }
+    .form-control:focus {
+        outline: none;
+        border-color: #66afe9;
+        box-shadow: 0 1px 1px rgba(0,0,0,.075) inset, 0 0 8px rgba(102,175,233,.6);
+    }
+    select.form-control[multiple] {
+        height: auto;
+    }
+</style> 
+</head>
+
+<body>
+<input class="form-control" type="text" name="province" list="provinces" />
+<datalist class="form-control" id="provinces">
+    <option>北京</option>
+    <option>河北</option>
+    <option>上海</option>
+    <option>江苏</option>
+    <option>湖北</option>
+    <option>湖南</option>
+</datalist>
+</body>
+
+</html>

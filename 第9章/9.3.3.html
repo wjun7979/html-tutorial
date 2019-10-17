@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<style>
+    .roof {
+        width: 0;
+        border-bottom: 60px solid #00a1d6;
+        border-top: 0;
+        border-left: 50px dashed transparent;  /*透明的虚线*/
+        border-right: 50px dashed transparent;
+    }
+    .wall {
+        position: relative;
+        width: 100px;
+        height: 60px;
+        background-color: #9e2e2e;
+    }
+    .window {
+        position: absolute;
+        left: 10px;
+        bottom: 25px;
+        width: 30px;
+        height: 20px;
+        background-color: #f2ffda;
+        border: 3px solid black;
+        z-index: 1;
+    }
+    .frame-horizontal {
+        position: absolute;
+        left: 13px;
+        bottom: 36px;
+        width: 30px;
+        height: 3px;
+        background-color: black;
+        z-index: 2;
+    }
+    .frame-vertical {
+        position: absolute;
+        left: 27px;
+        bottom: 28px;
+        width: 3px;
+        height: 20px;
+        background-color: black;
+        z-index: 2;
+    }
+    .door {
+        position: absolute;
+        bottom: 0;
+        left: 60px;
+        width: 20px;
+        height: 30px;
+        background-color: #f2ffda;
+        border: 3px solid black;
+        border-bottom: none;
+    }
+</style>    
+</head>
+
+<body>
+<div class="container">
+    <div class="roof"></div>
+    <div class="wall">
+        <div class="door"></div>
+        <div class="frame-horizontal"></div>
+        <div class="frame-vertical"></div>
+        <div class="window"></div>
+    </div>
+</div>
+</body>
+
+</html>

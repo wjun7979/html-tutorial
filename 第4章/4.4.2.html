@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<style>
+    a {
+        color:blue;
+        text-decoration:none;
+    }
+
+    a:hover {
+        color: red;
+        text-decoration:underline;
+    }
+
+    a::after {
+        content: "("attr(href)")"
+    }
+</style>
+</head>
+
+<body>
+<a href="https://www.baidu.com">百度</a><br/>
+<a href="https://www.qq.com">腾讯</a>
+</body>
+
+</html>

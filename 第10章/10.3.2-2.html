@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<style>
+    .box {
+        position: relative;
+        float: left;
+        width: 100px;
+        height: 100px;
+        margin: 0 20px 20px 0;
+        border: 1px solid #000;
+        line-height: 100px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .boxshadow1 {box-shadow:inset 0px 0px 5px 1px #000;}
+    .boxshadow2 {box-shadow:inset 0px 5px 5px -4px #000, inset 0px -5px 5px -4px #000;}
+    .boxshadow3 {box-shadow:0 0 10px #000;}
+    .boxshadow4 {box-shadow:3px 3px 5px #000;}
+    .boxshadow5 {box-shadow:5px 0 5px -2px #000, -5px 0 5px -2px #000;}
+    .sun {
+        position: absolute;
+        top: calc(50% - 10px);
+        left: calc(50% - 10px);
+        width: 20px;
+        height: 20px;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+    .boxshadow6 {box-shadow:0 0 60px 30px #fff, 0 0 20px 20px #f0f, 0 0 30px 30px #0ff;}
+</style>    
+</head>
+
+<body>
+<div class="box boxshadow1">内阴影</div>
+<div class="box boxshadow2">上下边内阴影</div>
+<div class="box boxshadow3">外阴影</div>
+<div class="box boxshadow4">右下外阴影</div>
+<div class="box boxshadow5">左右外阴影</div>
+<div class="box" style="background-color: #000;">
+    <div class="sun boxshadow6"></div>
+</div>
+</body>
+
+</html>

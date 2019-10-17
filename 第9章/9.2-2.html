@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 500px;
+    }
+    .header, .container, .footer {
+        border: 1px solid blue;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .header {
+        height: 60px;
+        line-height: 60px;
+    }
+    .container {
+        height: 150px;
+        padding: 5px;
+    }
+    .sidebar {
+        width: 30%;
+        height: 100%;
+        border: 1px solid green;
+        float: left;
+    }
+    .main {
+        width: 70%;
+        height: 100%;
+        border: 1px solid green;
+        float: right;
+    }
+    .footer {
+        height: 30px;
+        line-height: 30px;
+    }
+</style>    
+</head>
+
+<body>
+    <div class="header">标题</div>
+    <div class="container">
+        <div class="sidebar">侧边栏</div>
+        <div class="main">主要内容</div>
+    </div>
+    <div class="footer">版权信息</div>
+</body>
+
+</html>

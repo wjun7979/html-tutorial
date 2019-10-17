@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    .form-control {
+        width: 300px;
+        height: 34px;
+        margin-bottom: 5px;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        background-color: #fff;
+        color: #555;
+        font-size: 14px;
+        border-radius: 4px;
+    }
+    .form-control:focus {
+        outline: none;
+        border-color: #66afe9;
+        box-shadow: 0 1px 1px rgba(0,0,0,.075) inset, 0 0 8px rgba(102,175,233,.6);
+    }
+    textarea.form-control {
+        height: auto;
+    }
+    .form {
+        width: 450px;
+    }
+    fieldset {
+        position: relative;
+        margin-top: 20px;
+        padding: 40px 20px 10px 20px;
+        border: 0;
+        border-radius: 8px;
+        background: linear-gradient(to top,#EFEFEF,#FFFFFF);
+        box-shadow: 3px 3px 10px #666;
+    }
+    legend {
+        position: absolute;
+        left: 20px;
+        top: -11px;
+        padding: 5px 10px;
+        background-color: #4F709F;
+        color: #FFF;
+        border-radius: 3px;
+        box-shadow: 2px 2px 4px #666;
+    }
+    .form-group:not(:last-child) {
+        margin-bottom: 15px;
+    }
+    .form-label {
+        display: inline-block;
+        width: 80px;
+        font-weight: 700;
+        text-align: right;
+    }
+    .vertical-top {
+        vertical-align: top;
+    }
+</style>    
+</head>
+
+<body>
+<form class="form">
+    <fieldset>
+        <legend>基本信息：</legend>
+        <div class="form-group">
+            <label class="form-label">姓名：</label>
+            <input class="form-control" type="text" name="username" />
+        </div>
+        <div class="form-group">
+            <label class="form-label">性别：</label>
+            <label class="radio-label"><input type="radio" name="gender" value="男" checked/>男</label>  
+            <label class="radio-label"><input type="radio" name="gender" value="女"/>女</label>
+        </div>
+        <div class="form-group">
+            <label class="form-label vertical-top">学习经历：</label>
+            <textarea class="form-control" name="experience" rows="3"></textarea>
+        </div>
+    </fieldset>
+</form>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        margin: 50px;
+    }
+    .parent {
+        position: relative;
+        float: left;
+        width: 200px;
+        height: 100px;
+        margin-bottom: 50px;
+    }
+    .old {
+        width: 80px;
+        height: 80px;
+        border: 1px dotted #555;
+    }
+    .new {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 80px;
+        height: 80px;
+        border: 1px solid #ee6802;
+        background-color: rgba(223, 99, 1, 0.5);
+    }
+    .rotate {transform: rotate(30deg);}
+    .rotate1 {
+        transform-origin: left top;
+        transform: rotate(30deg);
+    }
+</style>    
+</head>
+
+<body>
+<div class="parent">
+    <div class="old"></div>
+    <div class="new rotate"></div>
+</div>
+<div class="parent">
+    <div class="old"></div>
+    <div class="new rotate1"></div>
+</div>
+</body>
+
+</html>

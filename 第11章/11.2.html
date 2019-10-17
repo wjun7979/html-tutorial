@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+    iframe {
+        display: block;
+        border: 1px solid #555;
+    }
+    #iframeTop {
+        width: 100%;
+        height: 30%;
+    }
+    #iframeLeft {
+        float: left;
+        width: 20%;
+        height: 70%;
+    }
+    #iframeContent {
+        float: right;
+        width: 80%;
+        height: 70%;
+    }
+</style>
+</head>
+
+<body>
+<iframe id="iframeTop" src="top.html" sandbox=""></iframe>
+<iframe id="iframeLeft" src="left.html" sandbox="allow-popups"></iframe>
+<iframe id="iframeContent" src="main.html" name="main" sandbox=""></iframe>
+</body>
+
+</html>

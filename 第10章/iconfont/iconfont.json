@@ -1,0 +1,30 @@
+{
+  "id": "1416967",
+  "name": "常用图标",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "一般项目都可以使用的图标",
+  "glyphs": [
+    {
+      "icon_id": "2567420",
+      "name": "密码",
+      "font_class": "mima",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "9132176",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "10130567",
+      "name": "删 除",
+      "font_class": "shanchu",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    }
+  ]
+}

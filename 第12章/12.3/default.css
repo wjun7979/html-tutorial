@@ -1,0 +1,128 @@
+/*全局样式*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+/*清除浮动*/
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+/*标题容器*/
+.header {
+    width: 980px;
+    height: 56px;
+    margin: 0 auto;
+    text-align: center;
+}
+/*标题水平线*/
+.title-line {
+    height: 28px;
+    border-bottom: 1px solid #ddd;
+}
+/*标题*/
+.title {
+    height: 56px;
+    line-height: 56px;
+    padding: 0 20px;
+    font-size: 38px;
+    background: #fff;
+}
+/*表单容器*/
+.register-container {
+    width: 980px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+/*表单元素组容器*/
+.form-group {
+    position: relative;
+    width: 420px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+/*表单元素组中的下拉列表容器（国家地区）*/
+.form-group-select {
+    float: left;
+    width: 130px;
+}
+/*去除国家地区下拉列表右边框圆角*/
+.form-group-select select {
+    border-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+/*表单元素组中的文本框容器（手机号码）*/
+.form-group-input {
+    float: right;
+    width: 290px;
+}
+/*去除手机号码文本框左边框圆角*/
+.form-group-input input {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+/*表单元素组中的按钮（获取验证码）*/
+.form-group-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 130px;
+    height: 40px;
+    padding: 2px;
+}
+/*重新设置获取验证码按钮的高度*/
+.form-group-button button {
+    height: 100%;
+}
+/*表单元素*/
+.form-control {
+    width: 100%;
+    height: 40px;
+    padding: 0 15px;
+    border: 1px solid #dcdfe6;
+    background-color: #fff;
+    color: #555;
+    font-size: 14px;
+    border-radius: 4px;
+    outline: 0;
+    transition: border-color 0.2s;
+}
+/*鼠标移到表单元素上时*/
+.form-control:hover {
+    border: 1px solid #c0c4cc;
+}
+/*表单元素获得焦点时*/
+.form-control:focus {
+    border: 1px solid #00a1d6;
+}
+/*复选框的标签*/
+.checkbox-label {
+    font-size: 12px;
+    vertical-align:text-top;
+    cursor: pointer;
+}
+/*按钮*/
+.btn {
+    display: block;
+    width: 100%;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 4px;
+    background: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #00a1d6;
+    border-color: #00a1d6;
+}
+.btn-primary:hover {
+    background: #33b4de;
+    border-color: #33b4de;
+    color: #fff;
+}

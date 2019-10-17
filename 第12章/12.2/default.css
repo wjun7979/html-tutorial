@@ -1,0 +1,45 @@
+/*表格*/
+#customers {
+    width: 500px;
+    border-collapse: collapse;
+}
+/*标题*/
+#customers caption {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 900;
+}
+/*表头*/
+#customers th {
+    padding: 5px 0;
+    border: 1px solid #98bf21;
+    background-color: #A7C942;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+/*表格内容*/
+#customers td {
+    padding: 5px 8px;
+    border: 1px solid #98bf21;
+    font-size: 14px;
+}
+/*第1至3列文字居中对齐*/
+#customers tbody tr td:nth-child(-n+3) {
+    text-align: center;
+}
+/*第5、6列文字右对齐*/
+#customers tbody tr td:nth-child(n+5) {
+    text-align: right;
+}
+/*表格内容中的偶数行显示不同的背景色*/
+#customers tbody tr:nth-child(2n) {
+    background-color: #EAF2D3;
+}
+/*鼠标经过表格行时改变背景*/
+#customers tbody tr:hover {
+    background-color: #b7d8ff;
+    cursor: pointer;
+    transition: all 0.3s;
+}

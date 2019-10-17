@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    .form-control {
+        width: 300px;
+        height: 34px;
+        margin-bottom: 5px;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        background-color: #fff;
+        color: #555;
+        font-size: 14px;
+        border-radius: 4px;
+    }
+    .form-control:read-only {
+        background-color: #eee;
+    }
+    .form-control:disabled {
+        background-color: #eee;
+        cursor: not-allowed;
+    }
+</style>    
+</head>
+
+<body>
+<input class="form-control" type="text" name="username" maxlength="20" placeholder="请输入用户名或手机号码" /><br/>
+<input class="form-control" type="text" name="username" readonly value="这是一个只读文本框" /><br/>
+<input class="form-control" type="text" name="username" disabled value="这是一个被禁用文本框" />
+</body>
+
+</html>

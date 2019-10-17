@@ -1,0 +1,53 @@
+/*最外层容器*/
+.container {
+    width: 850px;
+    margin: 0 auto;
+}
+/*文章标题*/
+.articleHead {
+    margin: 20px 0px;
+    line-height: 54px;
+    font-size: 36px;    
+}
+/*文章发布时间、来源等信息*/
+.info {
+    height: 30px;
+    border-bottom: 1px solid #efefef;
+}
+/*靠左对齐的信息*/
+.info .infoA {
+    margin-right: 20px;
+    color: #aaa;
+    font-size: 14px;
+}
+/*靠右对齐的信息*/
+.info .infoB {
+    float: right;
+    margin-left: 20px;
+    color: #aaa;
+    font-size: 14px;
+}
+/*文章摘要*/
+.articleAbs {
+    margin-top: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #efefef;
+    line-height: 32px;
+    color: #aaa;
+    font-size: 16px; 
+}
+/*文章内容*/
+.articleContent p {
+    padding-bottom: 15px;
+    line-height: 34px;
+    color: #333;
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 2em;
+}
+/*插图*/
+.articleImg {
+    float: right;
+    margin: 0 0 20px 20px;
+    width: 375px;
+}

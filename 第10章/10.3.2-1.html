@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    .form-control {
+        width: 300px;
+        height: 34px;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        background-color: #fff;
+        color: #555;
+        font-size: 14px;
+        border-radius: 4px;
+    }
+    .form-control:focus {
+        outline: none;
+        border-color: #66afe9;
+        box-shadow: 0 1px 1px rgba(0,0,0,.075) inset, 0 0 8px rgba(102,175,233,.6);
+    }
+    textarea.form-control {
+        height: auto;
+    }
+</style>    
+</head>
+
+<body>
+<textarea class="form-control" name="clause" rows="3" placeholder="Textarea"></textarea>
+</body>
+
+</html>

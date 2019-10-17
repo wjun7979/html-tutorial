@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<style>
+    .code1 {white-space: pre;}
+    .code2 {white-space: nowrap;}
+    .code3 {white-space: pre-wrap;}
+    .code4 {white-space: pre-line;}
+</style>
+</head>
+
+<body>
+<code class="code1">var str = {
+    text:"保留空白和换行，当文字长度超出浏览器时不会自动换行。这是一段很长的文字这是一段很长的文字
+}
+</code>
+<hr/>
+<code class="code2">
+var str = {
+    text:"去掉空白和换行，当文字长度超出浏览器时不会自动换行。这是一段很长的文字这是一段很长的文字",
+}
+</code>
+<hr/>
+<code class="code3">var str = {
+    text:"保留空白和换行，当文字长度超出浏览器时会自动换行。这是一段很长的文字这是一段很长的文字",
+}
+</code>
+<hr/>
+<code class="code4">var str = {
+    text:"去掉空白但保留换行，当文字长度超出浏览器时会自动换行。这是一段很长的文字这是一段很长的文字",
+}
+</code>
+</body>
+
+</html>
