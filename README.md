@@ -7,7 +7,7 @@
 <img src="https://github.com/wjun7979/html-tutorial/blob/master/praise.jpg" width="400" alt="赞赏" />
 
 # 目录
-
+<code><pre>
 第一章	网页设计简介	- 1 -
 1.1 HTML 概念	- 1 -
 1.2 CSS 概念	- 2 -
@@ -164,4 +164,9 @@
 第十三章	附录	- 190 -
 13.1 块级元素和行内元素的分类	- 190 -
 13.2 CSS命名规范	- 192 -
-13.3 MIME 参考手册	- 194 -  
+13.3 MIME 参考手册	- 194 -
+</pre></code>
+
+# 建议与反馈
+
+有任何问题请发送邮件至：wjun7979@gmail.com
