@@ -4,11 +4,10 @@
 
 
 # 喜欢本书您可以扫码赞赏：
-<img src="https://github.com/wjun7979/html-tutorial/blob/master/praise.jpg" width="400" alt="赞赏" />
+<img src="https://github.com/wjun7979/html-tutorial/blob/master/praise.jpg" width="350" alt="赞赏" />
 
 # 目录
-<code><pre>
-第一章	网页设计简介	- 1 -
+<code><pre>第一章	网页设计简介	- 1 -
 1.1 HTML 概念	- 1 -
 1.2 CSS 概念	- 2 -
 1.3 HTML 开发工具	- 2 -
