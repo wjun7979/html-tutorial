@@ -1,8 +1,10 @@
 # 手把手教你学网页设计
+
     想要成为一名优秀的网页设计师，学习并掌握 HTML 和 CSS 这两门技术是基本要求。HTML拥有众多标签，它们是网页内容的基本组成单元，而 CSS 却拥有许多属性，它们为 HTML 标签进行梳妆打扮，打造各种酷炫的视觉效果，这两门技术关系密切，缺一不可，正因为如此，本教程始终贯穿“标签+样式”这根主线，从实用角度出发，通过大量的实例让读者快速融入网页设计的世界。  
 
+
 # 喜欢本书您可以扫码赞赏：
-![Image text](https://github.com/wjun7979/html-tutorial/blob/master/praise.jpg)
+<img src="https://github.com/wjun7979/html-tutorial/blob/master/praise.jpg" width="400" alt="赞赏" />
 
 # 目录
 第一章	网页设计简介	- 1 -
